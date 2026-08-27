@@ -7,7 +7,7 @@ API de suivi des stations de velos en libre-service.
 - `/sante` : etat de sante de l'application
 - `/stations` : liste des stations avec quartier et velos disponibles
 - `/disponibilite` : taux d'occupation moyen du parc
-- `/alertes` : stations avec 1 velo disponible ou moins (seuil strict, a venir)
+- `/alertes` : stations avec 2 velos disponibles ou moins (seuil retenu apres discussion, a venir)
 
 ## Variables d'environnement
 
