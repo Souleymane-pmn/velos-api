@@ -8,5 +8,5 @@ def test_sante_repond_ok():
 def test_alertes_sans_base():
     client = app.test_client()
     donnees = client.get("/alertes").get_json()
-    assert donnees["source"] == "CASSE_VOLONTAIREMENT"
+    assert donnees["source"] == "memoire"
     assert all(s["velos_disponibles"] <= 2 for s in donnees["alertes"])
